@@ -1,34 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import aside from './components/aside'
-import body from './components/body'
-
-
-
-
-
-
-const App = ()  => {
-  return(
-    <div className = 'body'>
-         <body title = 'fku'/>
-         </div>
-
-          )
-
-}
-export default App;
-
-// function App() {
-//   return (
-
-
-//     
-
+    const main =(props) => {
+    return(
+    	<div> 
+    		<h1>{props.title}</h1>
+    		</div>
+//     <body>
 //     <main>
 //     <section id="info">
 //         <div class="wrap">
-//             <h2 class="title">个人资料</h2>
+//             <h2 class="title">info</h2>
 //             <div class="row">
 //                 <div class="col-l-4">
 //                     <p>Name：XXX</p>
@@ -99,13 +78,6 @@ export default App;
 
 
 
-
-
-
-
-
-
-
 //                     </ul>
 //                 </div>
 //                 <div class="col-m-4 center-fixed">
@@ -122,14 +94,6 @@ export default App;
                  
 
 
-
-
-
-
-
-
-
-
 //                 </div>
 //                 <div class="col-m-6 center">
 //                     <img src="static/img/team.png"/>
@@ -142,7 +106,6 @@ export default App;
 //     </footer>
 // </main>
 // </body>
-//   );
-// }
-
+ )
+}
 

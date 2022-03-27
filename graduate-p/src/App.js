@@ -11,7 +11,7 @@ function App() {
     <body>
 <aside class="sidebar">
     <div class="avatar">
-        <img src="static/img/avatar.jpg" title="保罗酱"/>
+        <img src="static/img/avatar.jpg" title="xxxx"/>
     </div>
     <nav class="nav">
         <a href="#info">profile</a>
@@ -19,6 +19,8 @@ function App() {
         <a href="#works">stuff</a>
         <a href="#story">expierence</a>
         <a href="#team">team</a>
+        <a href="#game">games</a>
+
     </nav>
 </aside>
 <main>
@@ -34,10 +36,10 @@ function App() {
                     <p>degree：</p>
                 </div>
                 <div class="col-l-4">
-                    <p>QQ：XXX</p>
-                    <p>GitHub：<a href="/">Moreduo</a></p>
+                    
+                    <p>GitHub：<a href="/"></a></p>
                    
-                    <p>Email:<a href="mailto:XXX@gmail.com">XXX@gmail.com</a></p>
+                    <p>Email:<a href=":XXX@gmail.com">XXX@gmail.com</a></p>
                 </div>
                 <div class="col-l-4">
                 </div>
@@ -111,7 +113,17 @@ function App() {
             </div>
         </div>
     </section>
+    <section class="content-d" id="game">
+        <div class="wrap">
+            <h2 class="title">game</h2>
+            <div class="row">
+                <div class="col-m-6">
+               
+                </div>
 
+            </div>
+        </div>
+    </section>
 </main>
 
 </body>
